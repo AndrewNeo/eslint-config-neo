@@ -1,0 +1,1 @@
+A combination of my preferred node.js eslint rules based on [Google's rules](https://github.com/google/eslint-config-google). Should be used in conjunction with `eslint:recommended`.

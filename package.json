@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-neo",
+  "version": "1.0.0",
+  "description": "My eslint configuration",
+  "author": "AndrewNeo <andrew@andrewneo.com>",
+  "license": "MIT",
+  "repository": "andrewneo/eslint-config-neo",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+      "lint",
+      "eslint"
+  ],
+  "devDependencies": {
+    "eslint": "^4.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.1.1"
+  }
+}
