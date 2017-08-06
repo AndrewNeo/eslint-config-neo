@@ -8,7 +8,7 @@ module.exports = {
         // "for-direction": "off",
         // "no-await-in-loop": "off",
         // "no-compare-neg-zero": "error", // eslint:recommended
-        "no-cond-assign": "off", // eslint:recommended
+        // "no-cond-assign": "error", // eslint:recommended
         "no-console": "off", // eslint:recommended
         // "no-constant-condition": "error", // eslint:recommended
         // "no-control-regex": "error", // eslint:recommended
@@ -25,13 +25,13 @@ module.exports = {
         // "no-func-assign": "error", // eslint:recommended
         // "no-inner-declarations": "error", // eslint:recommended
         // "no-invalid-regexp": "error", // eslint:recommended
-        "no-irregular-whitespace": "error", // eslint:recommended
+        // "no-irregular-whitespace": "error", // eslint:recommended
         // "no-obj-calls": "error", // eslint:recommended
         // "no-prototype-builtins": "off",
         // "no-regex-spaces": "error", // eslint:recommended
         // "no-sparse-arrays": "error", // eslint:recommended
         // "no-template-curly-in-string": "off",
-        "no-unexpected-multiline": "error", // eslint:recommended
+        // "no-unexpected-multiline": "error", // eslint:recommended
         // "no-unreachable": "error", // eslint:recommended
         // "no-unsafe-finally": "error", // eslint:recommended
         // "no-unsafe-negation": "off",
@@ -163,7 +163,7 @@ module.exports = {
         "brace-style": "error",
         "camelcase": "off", // project-dependent
         // "capitalized-comments": "off",
-        "comma-dangle": ["error", "always-multiline"],
+        "comma-dangle": "error",
         "comma-spacing": "error",
         "comma-style": "error",
         "computed-property-spacing": "error",
@@ -205,7 +205,7 @@ module.exports = {
         // "no-inline-comments": "off",
         // "no-lonely-if": "off",
         // "no-mixed-operators": "off",
-        "no-mixed-spaces-and-tabs": "error", // eslint:recommended
+        // "no-mixed-spaces-and-tabs": "error", // eslint:recommended
         // "no-multi-assign": "off",
         "no-multiple-empty-lines": ["warn", {"max": 3}],
         // "no-negated-condition": "off",
@@ -233,9 +233,7 @@ module.exports = {
         "padded-blocks": "off",
         // "padding-line-between-statements": "off",
         "quote-props": ["error"],
-        "quotes": ["error", "double", {
-            "allowTemplateLiterals": true
-        }],
+        "quotes": ["error", "double"],
         "require-jsdoc": ["warn", {
             "require": {
                 "FunctionDeclaration": true,
@@ -260,7 +258,7 @@ module.exports = {
         "spaced-comment": ["error", "always"],
         "switch-colon-spacing": "error",
         // "template-tag-spacing": "off",
-        // "unicode-bom": "off",
+        "unicode-bom": "warn",
         // "wrap-regex": "off",
 
         // ECMAScript 6
@@ -269,16 +267,16 @@ module.exports = {
         // "arrow-body-style": "off",
         "arrow-parens": ["error", "always"],
         // "arrow-spacing": "off",
-        "constructor-super": "error", // eslint:recommended
+        // "constructor-super": "error", // eslint:recommended
         "generator-star-spacing": ["error", "after"],
         // "no-class-assign": "off",
         // "no-confusing-arrow": "off",
         // "no-const-assign": "off", // eslint:recommended
         // "no-dupe-class-members": "off", // eslint:recommended
         // "no-duplicate-imports": "off",
-        "no-new-symbol": "error", // eslint:recommended
+        // "no-new-symbol": "error", // eslint:recommended
         // "no-restricted-imports": "off",
-        "no-this-before-super": "error", // eslint:recommended
+        // "no-this-before-super": "error", // eslint:recommended
         // "no-useless-computed-key": "off",
         // "no-useless-constructor": "off",
         // "no-useless-rename": "off",
